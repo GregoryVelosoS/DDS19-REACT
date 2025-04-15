@@ -1,0 +1,26 @@
+{
+  "funcionarios": [
+    {
+      "id": "1",
+      "nome": "Jairo",
+      "email": "jairo@example.com",
+      "senha": "senha123",
+      "tipo": "Administrador"
+    },
+    {
+      "id": "7",
+      "nome": "Cristiano Ronaldo",
+      "email": "cristiano.ronaldo@example.com",
+      "senha": "senha123",
+      "tipo": "Administrador"
+    },
+    {
+      "id": "db1c",
+      "nome": "Rodolfo",
+      "email": "rodolfo@example.com",
+      "senha": "senha123",
+      "tipo": "Administrador"
+    }
+  ]
+
+}

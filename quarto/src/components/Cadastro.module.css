@@ -1,0 +1,16 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: start;
+    width: 90%;
+    margin: auto;
+}
+
+.error{
+    color:red;
+    font-size: 12px;
+    position: absolute;
+}
