@@ -20,7 +20,13 @@
       "email": "rodolfo@example.com",
       "senha": "senha123",
       "tipo": "Administrador"
+    },
+    {
+      "id": "08b0",
+      "nome": "Neymar",
+      "email": "eu@eumesmo.com",
+      "senha": "123456789",
+      "tipo": "Funcionário"
     }
   ]
-
 }
