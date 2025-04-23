@@ -4,8 +4,9 @@ import Form from "react-bootstrap/Form";
 import styles from "./Cadastro.module.css";
 import Button from "react-bootstrap/Button";
 
-// Importação do hook do React Hook Form para lidar com o formulário
+import {deletarFuncionario} from "../hooks/useApi"
 
+// Importação do hook do React Hook Form para lidar com o formulário
 import { useForm } from "react-hook-form";
   // Hook useForm para gerenciar o estado do formulário
   // register: função para registrar os campos do formulário
@@ -21,6 +22,8 @@ const Excluir = () => {
   // Função chamada quando o formulário é enviado com sucesso
   const onSubmit = (data) => {
     console.log("Dados:", data);
+    deletarFuncionario(data.id)
+    window.location.reload();
   };
 
   // Função chamada quando há erros no envio do formulário

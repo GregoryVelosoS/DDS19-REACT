@@ -15,18 +15,39 @@
       "tipo": "Administrador"
     },
     {
-      "id": "db1c",
-      "nome": "Rodolfo",
-      "email": "rodolfo@example.com",
-      "senha": "senha123",
-      "tipo": "Administrador"
-    },
-    {
       "id": "08b0",
       "nome": "Neymar",
       "email": "eu@eumesmo.com",
       "senha": "123456789",
       "tipo": "Funcionário"
+    },
+    {
+      "id": "3060",
+      "nome": "Pedro",
+      "email": "maria@gmail.com",
+      "senha": "1234567897",
+      "tipo": "Funcionário"
+    },
+    {
+      "id": "d03c",
+      "nome": "dsadsa",
+      "email": "sarah@gmail.br",
+      "senha": "12345789",
+      "tipo": "Administrador"
+    },
+    {
+      "id": "feee",
+      "nome": "defesa civil",
+      "email": "eu@eumesmo.com",
+      "senha": "12346789",
+      "tipo": "Funcionário"
+    },
+    {
+      "id": "5a64",
+      "nome": "defesa civil",
+      "email": "GG@gg.gg",
+      "senha": "123456789",
+      "tipo": "Gerente"
     }
   ]
 }

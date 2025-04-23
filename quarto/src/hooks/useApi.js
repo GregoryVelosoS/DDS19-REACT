@@ -48,3 +48,40 @@ export function addFuncionario(funcionario){
     }
     fetchData()
 }
+
+export function deletarFuncionario(id){
+    async function fetchData(){
+        try{
+            const response = await fetch(`${url}/${id}`, {
+                method:"DELETE"
+            })
+            const data = await response.json()
+            console.log("Usuário excluído com sucesso:", data)
+        }
+        catch(error){
+            console.log("Erro ao deletar funcionário:", error)
+        }
+    }
+    fetchData()
+}
+
+export function editarFuncionario(funcionario){
+    async function fetchData() {
+        try{
+            const response = await fetch(`${url}/${funcionario.id}`, {
+                method: "PUT",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(funcionario)
+            } )
+            const data = await response.json()
+            console.log("Usuário editado:", data)
+        }
+        catch(error){
+            console.log("Erro ao editar funcionário:", error)
+        }
+    }
+
+    fetchData()
+}
